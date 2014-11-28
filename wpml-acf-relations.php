@@ -96,17 +96,6 @@ class WPML_ACF_Relations {
 		return $object_id;
 	}
 	
-// 	private function _log( ) {
-// 		$args = func_get_args();
-// 		$log = fopen( '/www/vhosts/shan-fan.local/data.log' , 'a');
-// 		fwrite($log,"---------------");
-// 		fwrite($log,"\n");
-// 		foreach ( $args as $arg ) {
-// 			fwrite($log,var_export($arg,true));
-// 			fwrite($log,"\n");
-// 		}
-// 		fclose($log);
-// 	}
 }
 
 WPML_ACF_Relations::instance();
